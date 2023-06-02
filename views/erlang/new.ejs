@@ -1,0 +1,22 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Erlang Calculation</title>
+    </head>
+    <body>
+        <div class="formContainer">
+          <h1>Erlang Calculator</h1>
+          <form action="/erlang" method="POST">
+              <input type="text" name="volumes" class="formInput" placeholder="volumes" />
+              <input type="text" name="intervalLength" class="formInput" placeholder="interval length" />
+              <input type="text" name="aht" class="formInput" placeholder="aht" />
+              <input type="text" name="targetServiceLevel" class="formInput" placeholder="target service level" />
+              <input type="text" name="targetTime" class="formInput" placeholder="target time" />
+              <input type="text" name="maxOccupancy" class="formInput" placeholder="maximum occupancy" />
+              <input type="text" name="shrinkage" class="formInput" placeholder="shrinkage" />
+              <input type="submit" name="submitButton" value="Calculate">
+         </form>
+       </div>
+    </body>
+</html>
